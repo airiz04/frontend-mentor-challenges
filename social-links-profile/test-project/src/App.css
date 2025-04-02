@@ -1,0 +1,78 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+html, body{
+  background-color: hsl(0, 0%, 8%);
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 12%);
+  width: 25rem;
+  height: 670px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  border-radius: 0.8rem;
+}
+
+main > img{
+  margin: 40px auto 25px auto;
+  width: 100px;
+  align-items: center;
+  border-radius: 100%;
+}
+
+main > h1{
+  color: white;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.6rem;
+}
+
+.location{
+  color: hsl(75, 94%, 57%);
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+.description{
+  padding-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+main > p{
+  color: white;
+  margin: 0;
+  font-size: 14px;
+}
+
+.links{
+  color: white;
+}
+
+.links > p{
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+  justify-content: center;
+  padding: 15px 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.links > p:hover{
+  background-color: hsl(0, 0%, 15%);
+  padding: 18px 0;
+}
+
