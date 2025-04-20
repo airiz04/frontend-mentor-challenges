@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0 auto;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+main{
+    display: flex;
+    width: 40rem;
+    border-radius: 0.6rem;
+    background-color: white;
+    margin: auto;
+}
+
+main img{
+    width: 50%;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name{
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 30px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.perfume-name{
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    color: hsl(158, 42%, 18%);
+}
+
+.description{
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: hsl(228, 12%, 48%);
+}
+
+.price{
+    margin: 0;
+    display: flex;
+}
+
+.new-price{
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price{
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.button {
+    display: flex;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: hsl(158, 36%, 37%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+    border: 0px;
+    border-radius: 0.6rem;
+    width: 70%;
+}
+
+.button-text{
+    margin: 0;
+}
+
+svg{
+    margin: 0;
+    margin-left: 20%;
+    padding-right: 15px;
+}
